@@ -31,7 +31,7 @@ body {
   flex-direction: column;
   text-transform: uppercase;
   color: white;
-  background: url(https://twitter.com/sodiqOladeni/photo) center/cover no-repeat;
+  background: url("https://twitter.com/sodiqOladeni/photo") center/cover no-repeat;
   border-radius: 5px;
   box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.5);
   background-color: rgb(130, 111, 111);
