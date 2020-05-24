@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(130, 111, 111);
+  background-image: radial-gradient(
+    circle,
+    rgb(191, 181, 181),
+    rgb(81, 81, 83)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+.user_profile {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin: 0;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: white;
+  background: url(https://twitter.com/sodiqOladeni/photo) center/cover no-repeat;
+  border-radius: 5px;
+  box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.5);
+  background-color: rgb(130, 111, 111);
+  z-index: 3;
+  position: relative;
+}
+.user_name {
+  margin: 0;
+  letter-spacing: 3px;
+}
+.user_title {
+  margin: 5px 0;
+  opacity: 0.5;
+}
+.user_info {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  margin-top: -10px;
+  padding: 15px 0 10px;
+  font-weight: 100;
+  background-color: white;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+}
+.number {
+  margin: 5px 0;
+}
+.number_title {
+  margin: 0;
+  opacity: 0.8;
+}
+.follow_btn {
+  display: block;
+  width: 60%;
+  margin: -5px auto 0;
+  padding: 12px 18px;
+  text-transform: uppercase;
+  color: white;
+  padding: 20px 0 15px;
+  letter-spacing: 5px;
+  background-color: #777;
+  border: none;
+  outline: none;
+  z-index: 1;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 5px 55px rgba(0, 0, 0, 0.5);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
